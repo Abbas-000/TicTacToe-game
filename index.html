@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is a Javascript based web game in which you play against computer at hard level">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TicTacToe Game</title>
+  </head>
+  <body>
+    <header>
+      <h1>Project Javascript Tic Tac Toe Game</h1>
+    </header>
+    <div class="show">
+      <p>You: <span id="you"></span></p>
+      <p>Computer: <span id="computer"></span></p>
+    </div>
+    <div class="decisions">
+      <h1 id="draw">Draw!</h1>
+      <h1 id="win">You Win!</h1>
+      <h1 id="lose">You Lose</h1>
+    </div>
+    <main>
+      <div class="option">
+        <div class="text">
+          <b>Choose "X" or "O"</b>
+        </div>
+        <hr>
+        <div>
+          <button type="button" name="button" onclick="selection('X')">X</button>
+          <button type="button" name="button" onclick="selection('O')">O</button>
+        </div>
+      </div>
+      <table>
+        <tbody>
+          <tr>
+            <td class="cell" id="0"></td>
+            <td class="cell" id="1"></td>
+            <td class="cell" id="2"></td>
+          </tr>
+          <tr>
+            <td class="cell" id="3"></td>
+            <td class="cell" id="4"></td>
+            <td class="cell" id="5"></td>
+          </tr>
+          <tr>
+            <td class="cell" id="6"></td>
+            <td class="cell" id="7"></td>
+            <td class="cell" id="8"></td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <footer>
+        <div>
+          <span>Design and buit by <a href="Abbas-000.github.io" target="_blank">Ali Abbas</a></span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
